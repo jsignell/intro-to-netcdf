@@ -6,21 +6,30 @@ If you are ready to dive in and get started with analysis, then choose your lang
 
 ## Python
 
-There are several packages that you will want to have install before you start anaylsis with python. If you are already confortable with python, then install **`xarray`**.
+There are several packages that you will want to have install before you start anaylsis with python. If you are already confortable with python, then install [xarray](http://xarray.pydata.org). If you don't alreay have them installed, you will also want to install [matplotlib](http://matplotlib.org) for graphing, and [pandas](http://pandas.pydata.org) for data analysis. 
 
 If you aren't comfortable already, then the easiest way is to get [miniconda](http://conda.pydata.org/miniconda). I recommend Python2.7. Then go to the command line and run:
+
     $ conda install xarray matplotlib pandas
+
+If you want an environment to work in, try [jupyter](http://jupyter.org), this it the tool that I used to generate the examples in this repository. Just run:
+
+    $ conda install jupyter
 
 ## R
 
-Like for python, there is one package that you will need, and several others that will make analysis easier. If you are comfortable with R, then install **`ncdf4`**. To make time management easier install **`xts`**, and to make plotting easier install **`ggplot2`**. 
+Like for python, there is one package that you will need, and several others that will make analysis easier. If you are comfortable with R, then install [ncdf4](https://cran.r-project.org/web/packages/ncdf4). To make time management easier install [xts](https://cran.r-project.org/web/packages/xts), and to make plotting easier install [ggplot2](https://cran.r-project.org/web/packages/ggplot2). 
 
-If you don't yet have R, I recommend getting the free version of RStudio and use the package manager to install **`ncdf4`**,  **`xts`**, and **`ggplot2`**. Or from the command line run: 
+If you don't yet have [R](https://cran.r-project.org/), download it and follow the install instructions.
+
+If you want to work from the command line run: 
 
     $ install.packages('ncdf4')
     $ install.packages('xts')
     $ install.packages('ggplot2')
 
+If you want a more user-friendly environment, try the free version of [RStudio](https://www.rstudio.com/products/rstudio/download/) and use the package manager to install **ncdf4**,  **xts**, and **ggplot2**. 
+
 ## Matlab
 
-Unlike the other two languages, matlab requires a license. If you already have Matlab you are all set to move forward into 
+Unlike the other two languages, matlab requires a license. If you already have Matlab you are all set to move forward. 
