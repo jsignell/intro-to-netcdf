@@ -6,11 +6,11 @@ If you are ready to dive in and get started with analysis, then choose your lang
 
 ## Python
 
-There are several packages that you will want to have install before you start anaylsis with python. If you are already confortable with python, then install [xarray](http://xarray.pydata.org). If you don't alreay have them installed, you will also want to install [matplotlib](http://matplotlib.org) for graphing, and [pandas](http://pandas.pydata.org) for data analysis. 
+There are several packages that you will want to have install before you start anaylsis with python. If you are already confortable with python, then install [netCDF4](http://unidata.github.io/netcdf4-python/)and [xarray](http://xarray.pydata.org), both are availble on conda. If you don't alreay have them installed, you will also want to install [matplotlib](http://matplotlib.org) for graphing, and [pandas](http://pandas.pydata.org) for data analysis. 
 
-If you aren't comfortable already, then the easiest way is to get [miniconda](http://conda.pydata.org/miniconda). I recommend Python2.7. Then go to the command line and run:
+If you aren't comfortable already, then the easiest way is to get [miniconda](http://conda.pydata.org/miniconda). I recommend Python 2.7, but Python 3 should also work. Then go to the command line and run:
 
-    $ conda install xarray matplotlib pandas
+    $ conda install netCDF4 xarray matplotlib pandas
 
 If you want an environment to work in, try [jupyter](http://jupyter.org), this it the tool that I used to generate the examples in this repository. Just run:
 
