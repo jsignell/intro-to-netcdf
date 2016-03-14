@@ -30,7 +30,7 @@ To start it, open a command window in the folder in which you want to store your
     
 There is also always the option of running Python directly from the terminal. If you choose that route, this is what your work environment will look like:
 
-<a href="screenshots/Python_terminal.png"><img src="screenshots/Python_terminal.png" width=80%/></a>
+<a href="screenshots/Python_terminal.png"><img src="screenshots/Python_terminal.png" width=60%/></a>
 
 [Python](#python) | [R](#r) | [Matlab](#matlab)
 ### R
@@ -47,11 +47,11 @@ If you want to work from the command line run:
 
 If you want a more user-friendly environment, try the free version of [RStudio](http://www.rstudio.com/products/rstudio/download/) and use the package manager to install **ncdf4**,  **xts**, and **ggplot2**. There are some nice tools for inspecting data tables and saving plots in a more familiar way. This is what your work environment will look like if you choose to use RStudio:
 
-<a href="screenshots/RStudio.png"><img src="screenshots/RStudio.png" width=80%/></a>
+<a href="screenshots/RStudio.png"><img src="screenshots/RStudio.png" width=60%/></a>
 
 If instead you choose to run R directly from the terminal, your environment will look more like this:
 
-<a href="screenshots/R_terminal.png"><src="screenshots/R_terminal.png" width=80%/></a>
+<a href="screenshots/R_terminal.png"><img src="screenshots/R_terminal.png" width=60%/></a>
 
 [Python](#python) | [R](#r) | [Matlab](#matlab)
 ### Matlab
@@ -60,7 +60,7 @@ Unlike the other two languages, matlab requires a license. If you already have M
 
 Matlab comes with its own user interface which has some helpful tools for inspecting data in table form and changing how plots look. If you use the Matlab user interface, this is what your work environment will look like:
 
-<a href="screenshots/matlab.png"><img src="screenshots/matlab.png" width=80%/></a>
+<a href="screenshots/matlab.png"><img src="screenshots/matlab.png" width=60%/></a>
 
 If for whatever reason you are interested in getting Jupyter set up to run Matlab, just download [miniconda](http://conda.pydata.org/miniconda) and run:
 
