@@ -1,5 +1,7 @@
 # Introduction to NetCDF
 
+<a href="screenshots/data_collection_overview.jpg"><img src="screenshots/data_collection_overview.jpg" width=100%/></a>
+
 NetCDF files are used for storing self-describing data in a consise and consistent way. If you have never encountered a NetCDF file before, they can seem daunting. If you want a quick and friendly way of looking at the data you should try out [Panoply](http://www.giss.nasa.gov/tools/panoply/). Or see if the files that you are interested in are already hosted on an in-browser viewing tool such as [ERDDAP](http://hydromet-thredds.princeton.edu:8000/erddap/info/index.html?page=1&itemsPerPage=1000)
 
 If you are ready to dive in and get started with analysis, then choose your language, get set up, and check out the introductory materials. 
