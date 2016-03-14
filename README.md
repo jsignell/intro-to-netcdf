@@ -12,7 +12,7 @@ This repository contains introductory materials for Python, R, and Matlab. These
 For the purposes of this introduction, all the code in this repository is run in [Jupyter](http://jupyter.org) notebooks. Jupyter is my favorite development environment and lends itself to linear explanations, but there are different and often more typical environments depending on the language you choose to use. All of the commands in the notebooks will work just the same no matter where you use them, whether at the command line or in a console window within an environment. Just copy and paste the lines that you want to run from the notebook and make sure that if you are depending on outside functions (select.py, select.R, or select.m) those files are saved in the same folder where you are working. Descriptions of different environments and instructions for setup are included below. 
 
 [Python](#python) | [R](#r) | [Matlab](#matlab)
-### Python
+### [Python](http://nbviewer.jupyter.org/github/jsignell/intro-to-netcdf/blob/master/Intro%20to%20Python.ipynb)
 
 There are several packages that you will want to install before you start anaylsis with python. If you are already confortable with python, then install [netCDF4](http://unidata.github.io/netcdf4-python/) and [xarray](http://xarray.pydata.org), both are availble on conda. If you don't alreay have them installed, you will also want to install [matplotlib](http://matplotlib.org) for graphing, and [pandas](http://pandas.pydata.org) for data analysis. 
 
@@ -33,7 +33,7 @@ There is also always the option of running Python directly from the terminal. If
 <a href="screenshots/Python_terminal.png"><img src="screenshots/Python_terminal.png" width=60%/></a>
 
 [Python](#python) | [R](#r) | [Matlab](#matlab)
-### R
+### [R](http://nbviewer.jupyter.org/github/jsignell/intro-to-netcdf/blob/master/Intro%20to%20R.ipynb)
 
 As with python, there is one package that you will need, and several others that will make analysis easier. If you are comfortable with R, then install [ncdf4](http://cran.r-project.org/web/packages/ncdf4). To make time management easier install [xts](http://cran.r-project.org/web/packages/xts), and to make plotting easier install [ggplot2](http://cran.r-project.org/web/packages/ggplot2). 
 
@@ -54,7 +54,7 @@ If instead you choose to run R directly from the terminal, your environment will
 <a href="screenshots/R_terminal.png"><img src="screenshots/R_terminal.png" width=60%/></a>
 
 [Python](#python) | [R](#r) | [Matlab](#matlab)
-### Matlab
+### [Matlab](http://nbviewer.jupyter.org/github/jsignell/intro-to-netcdf/blob/master/Intro%20to%20Matlab.ipynb)
 
 Unlike the other two languages, matlab requires a license. If you already have Matlab you are all set to move forward. 
 
